@@ -1290,7 +1290,7 @@ function loadCharacter() {
         if (typeof saveinfo.wisModPrevious !== "undefined") wisModPrevious = saveinfo.wisModPrevious;
         if (typeof saveinfo.chaModPrevious !== "undefined") chaModPrevious = saveinfo.chaModPrevious;
         if (typeof saveinfo.charactersCreated !== "undefined") charactersCreated = saveinfo.charactersCreated;
-        document.getElementById("infoText").innerHTML = "Your creation is a " + race + " " + subrace + " " + classChoice;
+        document.getElementById("infoText").innerHTML = "Your creation is a " + subrace + " " + race + " " + classChoice;
         document.getElementById("background").innerHTML = "I'm a(n) " + backgroundSelect + ": " + trait1 + " and " + trait2 + ". I idolize " + ideal + ". This means that I'm " + order + " " + moral + ".";
         document.getElementById("scores").innerHTML = "Strength: " + strength + " (" + mods[0] + ")</br> Dexterity: " + dexterity + " (" + mods[1] + ")</br> Constitution: " + constitution + " (" + mods[2] + ")</br> Intelligence: " + intelligence + " (" + mods[3] + ")</br> Wisdom: " + wisdom + " (" + mods[4] + ")</br> Charisma: " + charisma + " (" + mods[5] + ")";
         document.getElementById("health").innerHTML = "Max HP: " + maxHP;
